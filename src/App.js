@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import ProductTest from './component/ProductTest';
+import GraphicTest from './component/GraphicTest';
 
 function App() {
   return (
     <div className="App">
-      <ProductTest />
+      <GraphicTest />
     </div>
   );
 }
