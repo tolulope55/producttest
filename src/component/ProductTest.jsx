@@ -126,7 +126,7 @@ const ProductTest = () => {
         <div>
        {showScore ? (
 				<div className=' grid grid-rows-2'>
-                    { score < 6 ? <p className='mt-2 py-3 text-[12px] sm:text-[14px] md:text-[17px]'>Hmm... You are not a failure! Retake the test</p> : <p className='py-3 text-[12px] sm:text-[14px] md:text-[17px] font-[500]'>Congratulations, I think you'd make a great developer; practice more to become the best version of yourself, and your efforts will be crowned with success.</p> }
+                    { score < 6 ? <p className='mt-2 py-3 text-[12px] sm:text-[14px] md:text-[17px]'>Hmm... You are not a failure! Retake the test</p> : <p className='py-3 text-[12px] sm:text-[14px] md:text-[17px] font-[500]'>Congratulations, I think you'd make a great Product designer; practice more to become the best version of yourself, and your efforts will be crowned with success.</p> }
                    <div className='flex'> 
                        <button onClick={() => setResult('result')} className='h-10 text-[12px] sm:text-[14px] md:text-[17px]'>See result</button>
                        <button onClick={retake} className='h-10 text-[12px] sm:text-[14px] md:text-[17px]'>Retake the test</button>
