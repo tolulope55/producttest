@@ -1,0 +1,55 @@
+UX design
+Simple answer:
+User Experience (UX) designers conduct
+research, create prototypes, and develop designs 
+based on the research and user data.
+The goal of the research is to better 
+understand user behavior
+
+UX design deals with all aspects of a user’s experience
+ (UX) with digital products, including the way the product
+ makes them think and feel. If you enjoy your time with a
+ site or app and you can easily achieve what you want
+ with it, that’s thanks to good website design and UX.
+
+"To be a UX designer, you need an understanding of people and how 
+they think; enjoy problem 
+solving, think critically and possess strong attention to details"
+text-[#dcfbe1] bg-[#04220C]
+
+Instead of manually iterating over the array using a loop, you can simply use the built-in Array.map() method.
+
+The Array.map() method allows you to iterate over an array and modify its elements using a callback function. The callback function will then be executed on each of the array's elements.
+
+For example, suppose you have the following array element:
+Now imagine you are required to multiply each of the array's elements by 3. You might consider using a for loop as follows:
+let arr = [3, 4, 5, 6];
+
+for (let i = 0; i < arr.length; i++){
+  arr[i] = arr[i] * 3;
+}
+
+console.log(arr); // [9, 12, 15, 18]
+
+UI
+UI, or user interaction design, focuses particularly on 
+the aspects of a website or application that users see and 
+interact with (menus and buttons), color and typography, 
+page or screen layout, animations, and physical actions
+ (clicks and swipes). UI designers focus on visual design 
+and are graphic designers. As visual design impacts the way
+ a user experiences a product,
+ UI is a subset of UX which covers all aspects of a user’s experience.
+
+
+<div className="fixed bg-[#000] opacity-[0.9] w-full h-[100vh] top-0 left-0">
+    </div>
+    <div className='absolute bg-[#000] opacity-[0.9] mx-auto w-full h-[100vh] top-0 left-0'>
+        <div className='opacity-[1] h-[200px] mx-auto fixed ml-[400px] max-w-[180px] sm:max-w-[500px]'>
+        <div className="relative max-w-[180px] sm:max-w-[500px] my-32 mx-auto opacity-[20] max-h-[50vh] h-[300px] p-3 sm:max-h-[80vh] bg-[#414311] rounded-md overflow-auto">
+        <span className="cursor-pointer fixed w-6 h-6 rounded-[50%] text-align text-white pl-[450px] leading-[20px]" onClick={props.handleClose}><AiOutlineClose /></span>
+        {props.content}
+    </div>
+    </div>
+     
+    </div>
